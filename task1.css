@@ -25,10 +25,13 @@ main{
   position: relative;
 }
 
+.box2{
+  margin:0 20px;
+}
+
 .img{
   height:150px;
   margin:10px 10px 0 10px;
-
   background-size:cover;
   background-position:center;
 }
@@ -63,4 +66,19 @@ h3{
 
 footer{
   background-color:#aaaaaa;
+}
+
+@media screen and (max-width:768px){
+  main{
+    width:100%;
+  }
+
+  .box{
+    width:90%;
+    display: block;
+    margin:20px auto;
+    overflow: hidden
+  }
+
+
 }
